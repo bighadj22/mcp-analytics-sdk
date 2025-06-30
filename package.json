@@ -1,6 +1,6 @@
 {
   "name": "mcp-analytics",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "description": "Professional analytics SDK for Model Context Protocol tools",
   "type": "module",
   "main": "dist/index.cjs",
