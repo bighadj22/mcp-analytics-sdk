@@ -37,11 +37,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcp-analytics/sdk"
+    "url": "https://github.com/bighadj22/mcp-analytics-sdk"
   },
   "homepage": "https://mcpanalytics.dev",
   "bugs": {
-    "url": "https://github.com/mcp-analytics/sdk/issues"
+    "url": "https://github.com/bighadj22/mcp-analytics-sdk"
   },
   "peerDependencies": {
     "@modelcontextprotocol/sdk": ">=1.0.0",
