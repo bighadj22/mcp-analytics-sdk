@@ -1,0 +1,74 @@
+{
+  "name": "mcp-analytics",
+  "version": "1.0.35",
+  "description": "Professional analytics SDK for Model Context Protocol tools",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run typecheck",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "analytics",
+    "cloudflare",
+    "agents",
+    "tracking",
+    "mcp-server",
+    "ai-agents",
+    "observability"
+  ],
+  "author": "MCP Analytics Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcp-analytics/sdk"
+  },
+  "homepage": "https://mcpanalytics.dev",
+  "bugs": {
+    "url": "https://github.com/mcp-analytics/sdk/issues"
+  },
+  "peerDependencies": {
+    "@modelcontextprotocol/sdk": ">=1.0.0",
+    "zod": "^3.25.61"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250618.0",
+    "@types/node": "^22.15.21",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "prettier": "^3.5.3",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  },
+  "dependencies": {
+    "@stripe/agent-toolkit": "^0.7.9",
+    "agents": "^0.0.84",
+    "stripe": "^17.7.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

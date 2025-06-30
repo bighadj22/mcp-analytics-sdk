@@ -1,0 +1,19 @@
+# Source files
+src/
+test/
+
+# Development files
+tsconfig.json
+.gitignore
+*.log
+.env*
+
+# Build tools
+node_modules/
+
+# Documentation (keep README.md)
+docs/
+
+# Test files
+*.test.js
+*.spec.js
