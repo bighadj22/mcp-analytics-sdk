@@ -15,7 +15,7 @@
     <span> · </span>
     <a href="https://mcpanalytics.dev">Website</a>
     <span> · </span>
-    <a href="https://mcpanalytics.dev/">Open Source</a>
+    <a href="https://github.com/bighadj22/mcp-analytics-sdk">Open Source</a>
     <span> · </span>
 </h3>
 
